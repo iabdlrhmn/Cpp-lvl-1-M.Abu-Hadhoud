@@ -1,0 +1,17 @@
+literals are data values that represent a fixed value in a program. There are several types of literals in C++:
+    
+    - integers (whole numbers)
+    - floating point numbers (numbers with decimal points)
+    - characters (single characters enclosed in single quotes)
+    - strings (multiple characters enclosed in double quotes)
+    - boolean (true or false)
+    - null (represented by the keyword null)
+
+Escape sequences can be used to represent special characters in strings, such as newline, tab, and backslash.
+    
+    - \\ (backslash)
+    - \t (tab)
+    - \n (newline)
+    - \" (double quote)
+    - \' (single quote)
+    - \a (audio bell)
