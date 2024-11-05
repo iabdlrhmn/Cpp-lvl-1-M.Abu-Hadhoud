@@ -1,3 +1,9 @@
+The diffrence between \n and endl:
+    
+    -endl flushes the output buffer and then adds a newline character to the output stream. 
+     This ensures that all output is written to the console before the program terminates.
+    -\n only adds a newline character to the output stream, but does not flush the output buffer. 
+
 literals are data values that represent a fixed value in a program. There are several types of literals in C++:
     
     - integers (whole numbers)
@@ -15,3 +21,31 @@ Escape sequences can be used to represent special characters in strings, such as
     - \" (double quote)
     - \' (single quote)
     - \a (audio bell)
+
+Data types in C++:
+    Fundamental types:
+        Integral types:
+            - int (integer)
+            - char (single character)
+        Floating type:
+            - float (floating point number)
+            - double (floating point number with double precision)
+        Boolean type:
+            - bool (true or false)
+        String type:
+            - string (multiple characters enclosed in double quotes)
+        Void type:
+            - void (no value)
+        Wide character type:
+            - wchar_t (a character type that can represent multilingual characters)
+    Derived types:
+            - function (a block of code that performs a specific task)
+            - array (a collection of variables of the same type)
+            - pointer (a variable that stores the memory address of another variable)
+            - reference (a variable that refers to another variable)
+    User defined:    
+            - class (a user-defined type)
+            - structure (a collection of related variables)
+            - union (a collection of variables of different types)
+            - enum (a user-defined type that consists of a set of named values)
+            - typedef (a shorthand name for a data type)
