@@ -49,3 +49,45 @@ Data types in C++:
             - union (a collection of variables of different types)
             - enum (a user-defined type that consists of a set of named values)
             - typedef (a shorthand name for a data type)
+
+Type modifiers in C++:(Used only with int, double, char):
+    signed (indicates that the value can be negative) -- ***EVERYTHING IS SIGNED IN C++ BY DEFAULT***
+    unsigned (indicates that the value cannot be negative)
+    short (indicates that the value is a short integer)
+    long (indicates that the value is a long integer)
+    long long (indicates that the value is a long long integer)
+    Operators in C++:
+    
+Arithmetic operators:
+        + (addition)
+        - (subtraction)
+        * (multiplication)
+        / (division)
+        % (modulus) (returns the remainder of a division)
+Relational operators:
+        == (equal to)
+        != (not equal to)
+        < (less than)
+        > (greater than)
+        <= (less than or equal to)
+        >= (greater than or equal to)
+Increment/decrement operators:
+        ++ (increment)
+        -- (decrement)
+The diffrence between ++x and x++:
+        x++ (post-increment) returns the original value of x, then increments x.
+        ++x (pre-increment) increments x, then returns the new value of x.
+Assignment operators:
+        = (assignment) a = b
+        += (addition and assignment) a = a + b
+        -= (subtraction and assignment) a = a - b
+        *= (multiplication and assignment) a = a * b
+        /= (division and assignment) a = a / b
+        %= (modulus and assignment) a = a % b
+relational operators:
+        == (equal to)
+        != (not equal to)
+        < (less than)
+        > (greater than)
+        <= (less than or equal to)
+        >= (greater than or equal to)

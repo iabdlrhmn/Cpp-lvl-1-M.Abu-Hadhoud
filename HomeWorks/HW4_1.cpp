@@ -3,10 +3,8 @@ using namespace std;
 
 int main()
 {
-    int Age;
-    string Name;
-    string Country;
-    string City;
+    short Age;
+    string Name, Country, City;
     char Gender;
     bool Married;
     float MonthlySalary;

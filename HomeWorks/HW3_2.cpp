@@ -3,7 +3,9 @@ using namespace std;
 
 int main()
 {
-    int x = 20, y = 30, z = 10;
+    unsigned short x, y, z;
+    cout << "Enter three positive numbers: " << endl;
+    cin >> x >> y >> z;
     cout << x << " +\n"
          << y << " +\n"
          << z << "\n___________\n\n"
